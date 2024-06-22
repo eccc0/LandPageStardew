@@ -1,0 +1,129 @@
+*{
+
+margin: 0;
+padding: 0;
+gap: 0;
+font-family: "poppins";
+
+
+}
+body{
+
+   
+    background-image: url('https://www.stardewvalley.net/wp-content/uploads/2013/07/mountainsBg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: sticky;
+}
+header{
+
+    border: 1px solid red;
+    /* display: flex; */
+  background-color: black;
+}
+
+.galinha{
+
+    width: 150px;
+    margin: 0 16px;
+    border:  1px solid red;
+    /* background-color: black; */
+    transition: 0.5s;
+    background-image: url('https://www.stardewvalley.net/wp-content/uploads/2013/07/mountainsBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.galinha:hover{
+
+    transform: scale(1.05);
+}
+
+nav{
+
+    border: 1px solid blue;
+    display: flex;
+    /* flex: 1; */
+
+}
+
+ul{
+
+    border: 1px solid green;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: black; */
+    
+}
+li{
+
+    border: 1px solid purple;
+    list-style: none;
+    transition: .2s;
+
+}
+
+li:hover{
+
+    transform: scale(1.05);
+
+}
+a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+
+}
+
+/* FIM DO HEADER */
+
+main{
+
+    width: 80%;
+    background-color: white;
+    margin: 0px auto;
+    border: 1px solid blue;
+}
+
+.sobre{
+
+    border: 1px solid red;
+
+}
+
+.h1-sobre{
+
+    text-align: center;
+    background-color: green;
+    color: white;
+    
+}
+
+.conteudo-sobre{
+
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.logo{
+
+    
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    border: 1px solid yellow;
+    margin: 16px auto;
+   
+
+}
+
+.logo:hover{
+
+    transform:scale(1.05)
+
+}
+
